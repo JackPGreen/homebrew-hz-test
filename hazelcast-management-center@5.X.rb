@@ -9,7 +9,7 @@ class HazelcastManagementCenterAT5X < Formula
 
     def install
       libexec.install Dir["*"]
-      Dir["#{libexec}/bin/*"].each do |path|
+      Dir["#{libexec}/bin/*mc*"].each do |path|
         executable_name = File.basename(path)
         if executable_name.end_with? ".bat"
           next
