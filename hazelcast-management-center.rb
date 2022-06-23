@@ -2,8 +2,8 @@ class HazelcastManagementCenter < Formula
     desc "Tool to run Hazelcast Management Center"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
     version "5.0.4"
-    url "https://repository.hazelcast.com/download/management-center/hazelcast-management-center-5.1.1.tar.gz"
-    sha256 "bbaf9ea1d804a5712946f2fd339f211f4ef51037c5a37cf87b5c807cce05974d"
+    url "https://repository.hazelcast.com/download/management-center/hazelcast-management-center-5.1.2.tar.gz"
+    sha256 "ef946f2a240750cb67dad6bd9c751beef2ebdc8311f35b7ab0b6d289783c3ce5"
 
     depends_on "openjdk" => :recommended
 
