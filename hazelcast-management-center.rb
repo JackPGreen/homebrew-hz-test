@@ -4,6 +4,17 @@ class HazelcastManagementCenter < Formula
     version "5.0.4"
     url "https://repository.hazelcast.com/download/management-center/hazelcast-management-center-5.1.2.tar.gz"
     sha256 "ef946f2a240750cb67dad6bd9c751beef2ebdc8311f35b7ab0b6d289783c3ce5"
+    conflicts_with "hazelcast-management-center@5.X", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.2.snapshot", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.1.snapshot", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.1.2.snapshot", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.1.2", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.1.1", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.0.5.snapshot", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center@5.0.4", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center-5.1", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center-5.0", because: "you can install only a single hazelcast-management-center package"
+    conflicts_with "hazelcast-management-center-snapshot", because: "you can install only a single hazelcast-management-center package"
 
     depends_on "openjdk" => :recommended
 
