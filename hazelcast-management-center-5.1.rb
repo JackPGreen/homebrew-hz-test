@@ -1,7 +1,7 @@
 class HazelcastManagementCenter51 < Formula
     desc "Tool to run Hazelcast Management Center"
     homepage "https://github.com/hazelcast/hazelcast-command-line"
-    version "5.0.4"
+    version "5.1.2"
     url "https://repository.hazelcast.com/download/management-center/hazelcast-management-center-5.1.2.tar.gz"
     sha256 "ef946f2a240750cb67dad6bd9c751beef2ebdc8311f35b7ab0b6d289783c3ce5"
     conflicts_with "hazelcast-management-center@5.X", because: "you can install only a single hazelcast-management-center package"
