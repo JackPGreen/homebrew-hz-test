@@ -1,8 +1,8 @@
 class HazelcastSnapshot < Formula
     desc "Hazelcast is a streaming and memory-first application platform for fast, stateful, data-intensive workloads on-premises, at the edge or as a fully managed cloud service."
     homepage "https://github.com/hazelcast/hazelcast-command-line"
-    url "https://oss.sonatype.org/content/repositories/snapshots/com/hazelcast/hazelcast-distribution/5.3.7-SNAPSHOT/hazelcast-distribution-5.3.7-20231108.080312-1.tar.gz"
-    sha256 "259c7eeeaa71a6c4c7d09061cdcaddea7d8fdcdf42d91b2a4d5ac5ea9ffdc5dd"
+    url "https://oss.sonatype.org/content/repositories/snapshots/com/hazelcast/hazelcast-distribution/5.4.0-SNAPSHOT/hazelcast-distribution-5.4.0-20240124.122140-969.tar.gz"
+    sha256 "9783437a339adc304b3ce9eb7fe82283a5db654ece717b1d6ba491927d5365bd"
     conflicts_with "hazelcast-enterprise@5.4.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.3.7.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.3.6.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
@@ -64,7 +64,7 @@ class HazelcastSnapshot < Formula
     conflicts_with "hazelcast-5.1", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast", because: "you can install only a single hazelcast or hazelcast-enterprise package"
 
-    depends_on "openjdk" => :recommended
+    depends_on "openjdk@21" => :recommended
 
     def install
       libexec.install Dir["*"]
