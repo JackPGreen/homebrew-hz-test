@@ -3,6 +3,7 @@ class HazelcastSnapshot < Formula
     homepage "https://github.com/hazelcast/hazelcast-command-line"
     url "https://oss.sonatype.org/content/repositories/snapshots/com/hazelcast/hazelcast-distribution/5.5.0-SNAPSHOT/hazelcast-distribution-5.5.0-20240430.144601-284.tar.gz"
     sha256 "1e64179f638e61bc8eef3276c4eb454556936efa0d90a0d8ee5b5c68983cebdf"
+    conflicts_with "hazelcast-enterprise@5.5.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.4.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.3.8.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.3.7.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
