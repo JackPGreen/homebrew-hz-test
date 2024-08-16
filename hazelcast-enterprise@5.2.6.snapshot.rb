@@ -56,6 +56,7 @@ class HazelcastEnterpriseAT526Snapshot < Formula
     conflicts_with "hazelcast@4.2020.09", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-5.2", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-5.1", because: "you can install only a single hazelcast or hazelcast-enterprise package"
+    conflicts_with "hazelcast-snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast", because: "you can install only a single hazelcast or hazelcast-enterprise package"
 
     depends_on "openjdk" => :recommended
