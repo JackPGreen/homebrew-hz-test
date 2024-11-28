@@ -1,8 +1,8 @@
 class HazelcastEnterpriseSnapshot < Formula
     desc "Hazelcast is a streaming and memory-first application platform for fast, stateful, data-intensive workloads on-premises, at the edge or as a fully managed cloud service."
     homepage "https://github.com/hazelcast/hazelcast-command-line"
-    url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.4.2-SNAPSHOT/hazelcast-enterprise-distribution-5.4.2-SNAPSHOT.tar.gz"
-    sha256 "cc4e56122e6be157b3c1cb6958ab3be4fae2e35a3a40f87992d907ff6aed03f4"
+    url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/6.0.0-SNAPSHOT/hazelcast-enterprise-distribution-6.0.0-SNAPSHOT.tar.gz"
+    sha256 "ea1dbeda53d638429faa74d452e52750aa00e0ad473a693c3af4c320f70f2041"
     conflicts_with "hazelcast-enterprise@6.0.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.5.3.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.5.1.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
@@ -57,8 +57,6 @@ class HazelcastEnterpriseSnapshot < Formula
     conflicts_with "hazelcast@4.2020.09", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-5.2", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-5.1", because: "you can install only a single hazelcast or hazelcast-enterprise package"
-    conflicts_with "hazelcast-snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
-    conflicts_with "hazelcast-devel", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast", because: "you can install only a single hazelcast or hazelcast-enterprise package"
 
     depends_on "openjdk@21" => :recommended
