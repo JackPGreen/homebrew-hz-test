@@ -4,6 +4,7 @@ class HazelcastEnterpriseAT542Snapshot < Formula
     url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.4.2-SNAPSHOT/hazelcast-enterprise-distribution-5.4.2-SNAPSHOT.tar.gz"
     sha256 "cc4e56122e6be157b3c1cb6958ab3be4fae2e35a3a40f87992d907ff6aed03f4"
     conflicts_with "hazelcast-enterprise@6.0.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
+    conflicts_with "hazelcast-enterprise@5.5.4.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.5.3.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.5.1.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast-enterprise@5.5.0.snapshot", because: "you can install only a single hazelcast or hazelcast-enterprise package"
