@@ -63,7 +63,7 @@ class HazelcastEnterpriseAT570Snapshot < Formula
     conflicts_with "hazelcast-5.1", because: "you can install only a single hazelcast or hazelcast-enterprise package"
     conflicts_with "hazelcast", because: "you can install only a single hazelcast or hazelcast-enterprise package"
 
-    depends_on "openjdk@21" => :recommended
+    depends_on "openjdk@" => :recommended
 
     def install
       libexec.install Dir["*"]
