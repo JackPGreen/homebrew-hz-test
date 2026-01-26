@@ -1,5 +1,5 @@
 class HazelcastEnterpriseAT570Snapshot < Formula
-    desc "Hazelcast is a streaming adfdfnd memory-first application platform for fast, stateful, data-intensive workloads on-premises, at the edge or as a fully managed cloud service."
+    desc "Hazelcast is a streaming adfdfweewnd memory-first application platform for fast, stateful, data-intensive workloads on-premises, at the edge or as a fully managed cloud service."
     homepage "https://github.com/hazelcast/hazelcast-command-line"
     url "https://repository.hazelcast.com/snapshot/com/hazelcast/hazelcast-enterprise-distribution/5.7.0-SNAPSHOT/hazelcast-enterprise-distribution-5.7.0-SNAPSHOT.tar.gz"
     sha256 "6eb9442fec959238c8ad561da66f6c1ccfec4eb667611942c54d671d8933fcc9"
